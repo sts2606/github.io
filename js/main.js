@@ -7,7 +7,7 @@ let signBlock = document.getElementById('signBlock');
 
 menuButton.addEventListener('touchend' , (e) => {
     e.preventDefault();
-e.stopPropagation();
+    e.stopPropagation();
     menuBlock.classList.toggle('hide')
     menuButton.classList.toggle('fa-angle-double-up')
     menuButton.classList.toggle('fa-bars')
@@ -17,7 +17,9 @@ e.stopPropagation();
     signButton.classList.add('fa-user')
 }, false)
 
-signButton.addEventListener('' , () => {
+signButton.addEventListener('touchend' , (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     signBlock.classList.toggle('hide')
     signButton.classList.toggle('fa-angle-double-up')
     signButton.classList.toggle('fa-user')
@@ -25,5 +27,4 @@ signButton.addEventListener('' , () => {
     menuBlock.classList.add('hide')
     menuButton.classList.remove('fa-angle-double-up')
     menuButton.classList.add('fa-bars')
-
-})
+}, false)
