@@ -5,6 +5,10 @@ a {
     text-decoration: none;
 }
 
+/* .navbar-logo.hide {
+    display: none;
+} */
+
 .separator {
     margin: 20px auto;
     width: 90px;
@@ -213,6 +217,8 @@ line-height: 26px;
 .story-body {
     text-align: justify;
 }
+
+
 
 @media screen and (max-width: 479px) {
     .main-logo {
@@ -425,10 +431,7 @@ line-height: 26px;
         width: 320px;
     }
     
-    .hidden {
-        display: none;
-    }
-
+    
     .navbar-item {
         display: block;
         padding-left: 10%;
@@ -445,7 +448,7 @@ line-height: 26px;
         justify-content: center;
         align-items: center;
     }
-
+    
     .sign-block {
         display: flex;
         /* flex-direction: column; */
@@ -458,7 +461,10 @@ line-height: 26px;
         background-color: rgba(255,255,204,0.6);
         border-radius: 25px;
     }
-
+    
+    .hide {
+        display: none;
+    }
     .sign-block-right{
         display: flex;
         flex-direction: column;
