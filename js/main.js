@@ -5,7 +5,7 @@ let menuBlock = document.getElementById('menuBlock');
 let signButton = document.getElementById('signButton');
 let signBlock = document.getElementById('signBlock');
 
-menuButton.addEventListener('touchstart ' , () => {
+menuButton.addEventListener('click' , () => {
     menuBlock.classList.toggle('hide')
     menuButton.classList.toggle('fa-angle-double-up')
     menuButton.classList.toggle('fa-bars')
@@ -15,7 +15,7 @@ menuButton.addEventListener('touchstart ' , () => {
     signButton.classList.add('fa-user')
 })
 
-signButton.addEventListener('touchstart ' , () => {
+signButton.addEventListener('' , () => {
     signBlock.classList.toggle('hide')
     signButton.classList.toggle('fa-angle-double-up')
     signButton.classList.toggle('fa-user')
