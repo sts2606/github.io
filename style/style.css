@@ -5,6 +5,16 @@ a {
     text-decoration: none;
 }
 
+.fa-bars {
+    width: 35px;
+    text-align: center;
+}
+
+.fa-user {
+    width: 35px;
+    text-align: center;
+}
+
 /* .navbar-logo.hide {
     display: none;
 } */
