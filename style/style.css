@@ -25,6 +25,33 @@ a {
     padding: 10px 10px 5px 10px;
     position: relative;
 }
+
+.contacts-icons-item {
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.contacts-icons {
+    /* padding-right: 20px; */
+    border-right: 1px solid #f3f4f7;
+}
+
+.item-1 {
+    background: url('../img/viber.png') no-repeat;
+}
+.item-2 {
+    background: url('../img/phone-logo.png') no-repeat;
+}
+.item-3 {
+    background: url('../img/mail-logo.png') no-repeat;
+}
+.item-4 {
+    background: url('../img/skype-logo.png') no-repeat;
+}
+
 .common-title {
     text-align: center;
     text-transform: uppercase;
@@ -390,14 +417,16 @@ line-height: 26px;
     }
 
     .navbar {
-        /* display: none; */
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 100%;
         left: 0;
         width: 320px;
-        
+    }
+    
+    .hidden {
+        display: none;
     }
 
     .navbar-item {
@@ -418,7 +447,42 @@ line-height: 26px;
     }
 
     .sign-block {
-        display: none;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 320px;
+        background-color: rgba(255,255,204,0.6);
+        border-radius: 25px;
+    }
+
+    .sign-block-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signin-button {
+        border-radius: 22px;
+        background-color: #ffffff;
+        background-image: linear-gradient(-195deg, #a0002a 0%, #e20038 100%);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27px;
+        padding: 7px 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .contacts-icons{
+        order: 1;
+        border: none;
+        /* margin-right: 10%; */
+        /* margin-left: 10%; */
+        /* background-color: cornsilk; */
     }
     
     .sign-block-logo {
@@ -461,32 +525,6 @@ line-height: 26px;
         font-size: 18px;
         font-weight: 300;
         line-height: 27px;
-    }
-
-    .contacts-icons-item {
-        display: block;
-        width: 23px;
-        height: 23px;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-
-    .contacts-icons {
-        padding-right: 20px;
-        border-right: 1px solid #f3f4f7;
-    }
-    
-    .item-1 {
-        background: url('../img/viber.png') no-repeat;
-    }
-    .item-2 {
-        background: url('../img/phone-logo.png') no-repeat;
-    }
-    .item-3 {
-        background: url('../img/mail-logo.png') no-repeat;
-    }
-    .item-4 {
-        background: url('../img/skype-logo.png') no-repeat;
     }
 
     .sign-block {
