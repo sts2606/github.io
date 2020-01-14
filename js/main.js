@@ -25,6 +25,6 @@ signButton.addEventListener('touchend' , (e) => {
     signButton.classList.toggle('fa-user')
     menuBlock.classList.remove('hide')
     menuBlock.classList.add('hide')
-    menuButton.classList.remove('fa-angle-double-up')
+    menuButton.classList.remove('fa-angle-double-up');
     menuButton.classList.add('fa-bars')
 }, false)
