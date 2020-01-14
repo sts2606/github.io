@@ -5,7 +5,7 @@ let menuBlock = document.getElementById('menuBlock');
 let signButton = document.getElementById('signButton');
 let signBlock = document.getElementById('signBlock');
 
-menuButton.addEventListener('click' , () => {
+menuButton.addEventListener('tuched' , () => {
     menuBlock.classList.toggle('hide')
     menuButton.classList.toggle('fa-angle-double-up')
     menuButton.classList.toggle('fa-bars')
@@ -15,7 +15,7 @@ menuButton.addEventListener('click' , () => {
     signButton.classList.add('fa-user')
 })
 
-signButton.addEventListener('click' , () => {
+signButton.addEventListener('tuched' , () => {
     signBlock.classList.toggle('hide')
     signButton.classList.toggle('fa-angle-double-up')
     signButton.classList.toggle('fa-user')
