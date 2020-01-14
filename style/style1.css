@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.separator {
+    margin: 20px auto;
+    width: 90px;
+    height: 2px;
+    background-color: #e30038;
+}
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+.container {
+width: 970px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.container {
+width: 750px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.container {
+width: 450px;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+.container-header {
+    width: 320px;
+    margin: 0 auto;
+}
+.main-logo {
+    width: 190px;
+    height: 40px;
+    background: url('../img/annabelMatchmaking-min.png') no-repeat center;
+    order: 2
+}
+}    
