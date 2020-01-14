@@ -23,6 +23,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 10px 5px 10px;
+    position: relative;
 }
 .common-title {
     text-align: center;
@@ -389,7 +390,24 @@ line-height: 26px;
     }
 
     .navbar {
-        display: none;
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 320px;
+        
+    }
+
+    .navbar-item {
+        display: block;
+        padding-left: 10%;
+        padding-top: 5px;
+        color: #414a54;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
     }
     
     .navbar-logo {
