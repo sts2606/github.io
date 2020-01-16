@@ -233,6 +233,21 @@ line-height: 26px;
     text-align: justify;
 }
 
+/* .feedback-item-text{
+    position: relative;
+}
+
+.feedback-item-text:before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 15px;
+    background: url('../img/stars.png') no-repeat;
+    position: absolute;
+    top: 13px;
+    right: 23px;
+} */
+
 
 
 @media screen and (max-width: 479px) {

@@ -27,4 +27,21 @@ signButton.addEventListener('touchend' , (e) => {
     menuBlock.classList.add('hide')
     menuButton.classList.remove('fa-angle-double-up');
     menuButton.classList.add('fa-bars')
-}, false)
+}, false);
+
+$('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    prevArrow: '<img src="./img/arrow_left.png" alt="" class="prewArrow">',
+    nextArrow: '<img src="./img/arrow_right.png" alt="" class="nextArrow">',
+    pauseOnHover: true,
+    fade: true
+})
+
+$('.slider-comment').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    prevArrow: '<img src="./img/arrow_left.png" alt="" class="prewArrowCom">',
+    nextArrow: '<img src="./img/arrow_right.png" alt="" class="nextArrowCom">'
+})
+
