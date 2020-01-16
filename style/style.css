@@ -233,22 +233,37 @@ line-height: 26px;
     text-align: justify;
 }
 
-/* .feedback-item-text{
+.slider, .slider-comment {
     position: relative;
 }
 
-.feedback-item-text:before {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 15px;
-    background: url('../img/stars.png') no-repeat;
+.prewArrow{
     position: absolute;
-    top: 13px;
-    right: 23px;
-} */
+    top: 30%;
+    transform: translateY(-50%);
+    left: -10%;
+}
 
+.nextArrow {
+    position: absolute;
+    bottom: 70%;
+    transform: translateY(50%);
+    right: -10%;
+}
 
+.prewArrowCom{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.nextArrowCom {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 10%;
+}
 
 @media screen and (max-width: 479px) {
     .main-logo {
@@ -341,6 +356,10 @@ line-height: 26px;
 
     .story-item {
         text-align: center;
+    }
+
+    .prewArrow, .nextArrow, .prewArrowCom, .nextArrowCom {
+        visibility: hidden;
     }
 }
 
