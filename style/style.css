@@ -49,6 +49,10 @@ a {
     background-color: #fff;
 }
 
+.advantage-text {
+    line-height: 22px;
+}
+
 .contacts-icons-item {
     display: block;
     width: 23px;
