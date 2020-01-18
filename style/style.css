@@ -476,7 +476,7 @@ line-height: 26px;
         position: relative;
     }
 
-    .main-logo {
+    .main-logo-link {
         order: 2;
     }
 
@@ -487,6 +487,7 @@ line-height: 26px;
         top: 100%;
         left: 0;
         width: 320px;
+        order: 1;
     }
     
     
