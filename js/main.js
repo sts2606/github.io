@@ -30,8 +30,8 @@ signButton.addEventListener('touchend' , (e) => {
 }, false);
 
 $('.slider').slick({
-    autoplay: true,
-    autoplaySpeed: 4000,
+    // autoplay: true,
+    // autoplaySpeed: 4000,
     prevArrow: '<img src="./img/arrow_left.png" alt="" class="prewArrow">',
     nextArrow: '<img src="./img/arrow_right.png" alt="" class="nextArrow">',
     pauseOnHover: true,
@@ -39,8 +39,8 @@ $('.slider').slick({
 })
 
 $('.slider-comment').slick({
-    autoplay: true,
-    autoplaySpeed: 4000,
+    // autoplay: true,
+    // autoplaySpeed: 4000,
     prevArrow: '<img src="./img/arrow_left.png" alt="" class="prewArrowCom">',
     nextArrow: '<img src="./img/arrow_right.png" alt="" class="nextArrowCom">'
 })
