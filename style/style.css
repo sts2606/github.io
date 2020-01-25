@@ -21,7 +21,7 @@ a {
 }
 
 .footer-scedule {
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 /* .navbar-logo.hide {
@@ -36,12 +36,27 @@ a {
     margin-bottom: 35px;
 }
 
+.common-button:hover{
+    border: 2px solid #e20038;
+    background-image: linear-gradient(-195deg, #fff 0%, #fff 100%);
+    color: #e20038;
+    transition: 0.6s;
+}
+
+.signin-button:hover{
+    border: 2px solid #e20038;
+    background-image: linear-gradient(-195deg, #fff 0%, #fff 100%);
+    color: #e20038;
+    transition: 0.6s;
+}
+
 .css-adaptive {
     display: block;
     width: 100%;
     height: auto;
     }
 .header {
+    /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -387,6 +402,7 @@ line-height: 26px;
         font-size: 24px;
         font-weight: 300;
         line-height: 20px;
+        border: 2px solid transparent;
     }
 
     .advantage {
@@ -569,9 +585,17 @@ line-height: 26px;
 }
 
 @media screen and (min-width: 992px)  {
-    .header {
+    .container{
+         max-width: 1200px;
+         margin: 0 auto;
+    }
+
+    .container-header {
         position: fixed;
-        width: 100%;
+    }
+    .header {
+        /* position: fixed; */
+        /* margin: 0 auto; */
         justify-content: space-between;
         z-index: 100;
     }
@@ -633,6 +657,7 @@ line-height: 26px;
         font-weight: 400;
         line-height: 27px;
         padding: 13px 45px;
+        border: 2px solid transparent;
     }
 
     .greetings {
@@ -657,6 +682,7 @@ line-height: 26px;
     }
 
     .container {
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -749,7 +775,7 @@ line-height: 26px;
         text-align: center;
         padding-bottom: 15px;
         color: #414a54;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 15px;
     }
 
