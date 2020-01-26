@@ -24,6 +24,10 @@ a {
     font-weight: bolder;
 }
 
+.feedback-item-photo {
+    height: 332px;
+}
+
 /* .navbar-logo.hide {
     display: none;
 } */
